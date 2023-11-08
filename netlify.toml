@@ -1,0 +1,18 @@
+[build]
+edge_functions = "api"
+
+[[edge_functions]]
+  path = "/practice"
+  function = "practice"
+
+[[edge_functions]]
+  path = "/guzhi"
+  function = "guzhi"
+
+[[edge_functions]]
+  path = "/about"
+  function = "about"
+
+[[redirects]]
+  from = "/"
+  to = "https://cyrxdzj.github.io/2021-07-07-HowToUseLuoguCard/"
