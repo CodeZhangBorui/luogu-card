@@ -2,7 +2,7 @@
 edge_functions = "api"
 
 [[edge_functions]]
-  cache = manual
+  cache = "manual"
   path = "/about"
   function = "about"
 
