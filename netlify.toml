@@ -2,14 +2,7 @@
 edge_functions = "api"
 
 [[edge_functions]]
-  path = "/practice"
-  function = "practice"
-
-[[edge_functions]]
-  path = "/guzhi"
-  function = "guzhi"
-
-[[edge_functions]]
+  cache: manual
   path = "/about"
   function = "about"
 

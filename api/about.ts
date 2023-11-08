@@ -1,7 +1,7 @@
-const { fetchAbout, renderSVG } = require("../src/about-card.js");
-const { renderError } = require("../src/common.js")
+import { fetchAbout, renderSVG } from "../src/about-card.js";
+import { renderError }  from "../src/common.js";
 
-module.exports = async (req, res) => {
+export default async function async (req, res) {
     const { 
         id, 
         hide_title, 
